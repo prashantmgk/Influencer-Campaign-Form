@@ -29,7 +29,7 @@ interface FormValues {
 const InfluencerForm = ({ campaignForm }: { campaignForm: InfluencerCampaignForm }) => {
    const { control, handleSubmit, formState: { errors }, register, } = useForm();
 
-   const onSubmit = (values: FormValues) => { //TODO: add type
+   const onSubmit = (values: FormValues) => {
       console.log('FORM SUBMITTED:', values);
    };
    return (
