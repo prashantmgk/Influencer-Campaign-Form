@@ -1,5 +1,5 @@
 'use client'
-import { Box, Button, Heading, Stack } from "@chakra-ui/react"
+import { Heading, Stack } from "@chakra-ui/react"
 import { useRouter } from 'next/navigation'
 
 const Error500 = () => {

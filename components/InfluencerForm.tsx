@@ -9,7 +9,7 @@ import YoutubeLogo from '../images/youtube.png';
 
 import { InfluencerCampaignForm } from '../lib/api';
 
-import { SubmitHandler, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import {
    FormErrorMessage,
    FormLabel,
