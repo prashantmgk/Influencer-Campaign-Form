@@ -7,7 +7,7 @@ import TiktokLogo from '../images/tiktok.png';
 import TwitterLogo from '../images/twitter.png';
 import YoutubeLogo from '../images/youtube.png';
 
-import { InfluencerCampaignForm } from '../lib/api';
+import { InfluencerCampaignForm } from '../../../lib/api';
 
 import { useForm } from 'react-hook-form'
 import {
